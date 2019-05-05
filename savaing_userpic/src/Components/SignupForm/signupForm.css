@@ -1,0 +1,20 @@
+.sign-in-form{
+  color:white;
+  text-align: left;
+ 
+  margin-top:45%;
+  border:0px;
+}
+
+.sign-in-form label {
+
+  display: inline-block;
+  min-width: 100px;
+  min-height:10px;
+}
+
+/*.register-form .register-error {
+  color: red;
+  padding: 10px 20px;
+}*/
+/*# sourceMappingURL=Register.css.map */

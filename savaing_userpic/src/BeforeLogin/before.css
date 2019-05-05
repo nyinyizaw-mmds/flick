@@ -1,0 +1,127 @@
+.one{
+    background:url('image.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+}
+
+.rain{
+    height:100vh;
+    background:url('f2d3439264b1345574ddb3adb30dacb1.png');
+    animation:rain 3s linear infinite;
+    
+}
+
+@keyframes rain{
+    0%{
+        background-position:0% 0%;
+    }
+    100%{
+        background-position: 10% 100%
+    }
+}
+
+/* .rain:before{
+    content:"";
+    height:100%;
+    width:100%;
+    background: #fff;
+    opacity:0;
+    animation:light 3s reverse infinite ;
+    position:absolute;
+}
+
+@keyframes light{
+    0%{
+        opacity:0;
+    }
+    5%{
+        opacity:0;
+    }
+    10%{
+        opacity:0;
+    }
+    20%{
+        opacity:1;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity:0;
+    }
+    40%{
+        opacity:1;
+    }
+    45%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    60%{
+        opacity:0;
+    }
+    75%{
+        opacity:0;
+    }
+    90%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+} */
+
+h2{
+    padding-left:600px;
+    padding-top:20px;
+    animation:moveleft 4s infinite;
+    font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v10/If2RXTr6YS-zF4S-kcSWSVi_szLviuEViw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+@keyframes moveleft{
+    0%{
+        opacity:0;
+    }
+    25%{
+        opacity:5
+    }
+    50%{
+        opacity:10
+    }
+    75%{
+        opacity:15
+    }
+    100%{
+      opacity:20;
+      color:white;
+      
+    }
+}
+
+#signup{
+  margin-left:25px;
+  margin-top:-200px;
+  position:absolute;
+  width:300px;
+  height:300px;
+  border-radius: 50px;
+  
+}
+
+#signin{
+    margin-left:250px;
+    margin-top:-200px;
+    position:absolute;
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+    
+  }
+
